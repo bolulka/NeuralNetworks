@@ -46,7 +46,8 @@ print('vowels: ', vowels, ', consonants: ', consonants)
 
 print('task b')
 print('Input sentence ')
-s = input().split()
+s = input().replace('.','')
+s.split()
 print('Result: ', end="")
 for i in s:
     print(i.title(), end=". ")
